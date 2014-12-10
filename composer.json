@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Charmeleon\\Debugging": "src"
+            "Debugging": "src/"
         }
     },
     "minimum-stability": "dev",
