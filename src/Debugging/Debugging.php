@@ -1,15 +1,13 @@
 <?php
-namespace Debugging;
+namespace Debug;
 
-class Debugging {
+class Debug {
 
-    public static function debug() {
+    public static function flush() {
         ob_start();
-        echo "<div><pre>";
         foreach (func_get_args() as $arg) {
-            print_r($arg);
+            echo '<div><pre>', print_r($arg, true), '</pre></div>';
         }
-        echo "</div></pre>";
         ob_end_flush();
     }
 
