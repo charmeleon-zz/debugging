@@ -1,5 +1,5 @@
 {
-    "name": "charmeleon/debugging",
+    "name": "charmeleon/debug",
     "description": "A quick and dirty debugging tool, barely better than echoing things",
     "authors": [
         {
@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Debugging": "src/"
+            "Debug": "src/"
         }
     },
     "minimum-stability": "dev",
